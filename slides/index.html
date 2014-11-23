@@ -1,0 +1,348 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>D+</title>
+
+  <link rel="stylesheet" media="screen" href="deck.js/core/deck.core.css">
+  <link rel="stylesheet" media="screen" href="deck.js/themes/mozilla/sandstone.default.css">
+
+  <script src="deck.js/modernizr.custom.js"></script>
+  <script src="deck.js/jquery.min.js"></script>
+  <script src="deck.js/core/deck.core.js"></script>
+
+  <style>
+  body {
+    overflow: hidden;
+  }
+  .deck-container .slide {
+    font-size: 1.3em;
+    padding: 1em;
+    padding-top: 0.6em;
+    border: none;
+  }
+  .deck-container .slide h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .deck-container .slide h1 .h1sub {
+    font-size: 0.5em;
+  }
+  .deck-container .slide h2 {
+    padding-left: 1.3em;
+  }
+  .deck-container .slide blockquote {
+    font-size: 1em;
+  }
+  .deck-container .slide table {
+    font-size: 1em;
+  }
+  .deck-container .slide td {
+    padding: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+  }
+  .deck-container .slide td + td {
+    text-align: right;
+  }
+  .run-timer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: black;
+    height: 5px;
+    width: 10px;
+    opacity: 0.5;
+  }
+  .run-timer-slow-down {
+    background: blue;
+  }
+  .run-timer-on-track {
+    background: green;
+  }
+  .run-timer-move-on {
+    background: orange;
+  }
+  .run-timer-hurry-up {
+    background: red;
+  }
+  .deck-container > .slide {
+    page-break-after: always;
+  }
+  </style>
+
+</head>
+<body>
+<div class="deck-container">
+
+  <div class="run-timer"></div>
+
+  <section class="slide" style="text-align: center" run-time-waypoint="0">
+  <h1>Mozilla<p class='h1sub'>2014+</p></h1>
+  <p>Ryan Kelly<br />rfkelly@mozilla.com</p>
+  </section>
+
+  <section class="slide">
+  <h1>Mozilla</h1>
+  </section>
+
+  <section class="slide" run-time-waypoint="60">
+  <h1>Mozilla</h1>
+  <div style="text-align: center">
+  <img src="./img/firefox_logo-only_RGB.png" style="height: 300px; width:319" />
+  </div>
+  </section>
+
+  <section class="slide">
+  <h2>10 Years of Firefox</h2>
+  <div style="text-align: center">
+  <img src="./img/firefox-cake.jpg" style="height: 500px; width: 300px;" />
+  </div>
+  [https://twitter.com/canuckistani/status/533422281305776129]
+  </section>
+
+  <section class="slide" run-time-waypoint="120">
+  <h1>Mozilla</h1>
+  <div style="text-align: center">
+  <img src="./img/firefox_logo-only_RGB.png" style="height: 300px; width:319" />
+  </div>
+  </section>
+
+  <section class="slide">
+  <h1>Mozilla<br/>&#x2764<br/>The Web</h1>
+  </section>
+
+  <section class="slide">
+  <h2>The Mozilla Manifesto</h2>
+  <blockquote>"Our mission is to promote openness, innovation & opportunity on the Web."</blockquote>
+  <p style="text-align: center; font-size: 0.8em"><a href="https://www.mozilla.org/en-US/about/manifesto/">https://www.mozilla.org/en-US/about/manifesto/</a></p>
+  </section>
+
+  <section class="slide" run-time-waypoint="180">
+  <h2>Lots of Stuff</h2>
+  asmjs, polaris, lets-encrypt, the open standard, net neutrality, stumbler, etc etc...
+  </section>
+
+  <section class="slide" run-time-waypoint="240">
+  <h2>Global Connectivity</h2>
+  <ul>
+  <li>3 billion citizens of the web connected</li>
+  <li>World population: 7 billion</li>
+  </ul>
+  <div style="text-align: center">
+  <img src="./img/global_connectivity_pie.svg" style="height: 400px"/>
+  </div>
+  </section>
+
+  <section class="slide">
+  <h2></h2>
+  <blockquote>"Let's help connect the next billion people."</blockquote>
+  </section>
+
+  <section class="slide">
+  <h2>The World goes Mobile</h2>
+  <div style="text-align: center">
+  <img src="./img/StatCounter-comparison-ww-monthly-201310-201410.jpeg" style="height: 400px"/>
+  </div>
+  [http://gs.statcounter.com/press/mobile-internet-usage-soars-by-67-perc]
+  </section>
+
+  <section class="slide">
+  <div style="text-align: center">
+  <table style="width: 90%; height: 400px">
+  <tr><td style="text-align: center">
+    <img src="./img/Apple_logo_black.svg" style="height: 400px"/>
+  </td><td style="text-align: center">
+    <img src="./img/Android_Robot_200.png" style=""/>
+  </td></tr>
+  </table>
+  </div>
+  </section>
+
+  <section class="slide">
+  <h2></h2>
+  <blockquote>"Let's help connect the next billion people <b>to the web</b>."</blockquote>
+  </section>
+
+  <section class="slide">
+  <div style="text-align: center">
+  <img src="./img/firefox-os_logo-wordmark_RGB.png"/>
+  </div>
+  </section>
+
+  <section class="slide" run-time-waypoint="360">
+  <h2>Firefox OS</h2>
+  <ul>
+  <li>Built to be "of the web"</li>
+  <li>Targetting feature-phone -> smartphone transition</li>
+  <li>Targetting lower price points</li>
+  </ul>
+  </section>
+
+  <section class="slide">
+  <h2>Firefox OS Around the World</h2>
+  <div style="text-align: center">
+  <img src="./img/FFxOS_Markets_Animated_2_560k.gif"/>
+  </div>
+  5 continents, 27 markets
+  [https://blog.mozilla.org/blog/2014/07/17/firefox-os-ecosystem-shows-strong-momentum-and-expands-across-new-devices-markets-and-categories/]
+  </section>
+
+  <section class="slide">
+  <h2>Marketshare?</h2>
+  <div style="text-align: center">
+  <img src="./img/StatCounter-os-ww-monthly-201310-201410.jpeg"/>
+  </div>
+  [http://gs.statcounter.com/#mobile_os-ww-monthly-201310-201410]
+  </section>
+
+  <section class="slide" run-time-waypoint="540">
+  <div style="text-align: center">
+  <img src="./img/mozilla-webmaker_logo-wordmark_RGB.png" />
+  </div>
+  </section>
+
+  <section class="slide">
+  <h2>Web Literacy</h2>
+  Open the Site?
+  </section>
+
+  <section class="slide">
+  <div style="text-align: center">
+  <a href="./img/makerparty_postparty_infographic_static_vertical_v2.png"
+ target="_new"><img src="./img/maker_party_header.png"/></a>
+  </div>
+  [https://blog.mozilla.org/blog/2014/09/18/global-web-literacy-gets-a-boost-from-maker-party-2014/]
+  </section>
+
+  <section class="slide" run-time-waypoint="660">
+  <div style="text-align: center">
+  <img src="./img/mozbus.jpg"/>
+  </div>
+  [http://mozbus-en.tumblr.com/]
+  </section>
+
+  <section class="slide">
+  <h2></h2>
+  <blockquote>"Let's help connect the next billion people to the web, <b>as citizens</b>."</blockquote>
+  </section>
+
+  <section class="slide" run-time-waypoint="720">
+  <h2>Police Station Finder</h2>
+  <div style="text-align: center">
+  <img src="./img/police_station_bangladesh.png"/>
+  </div>
+  [https://marketplace.firefox.com/app/police-station]
+  </section>
+
+  <section class="slide">
+  <h2>OpenBeerMap</h2>
+  <div style="text-align: center">
+  <img src="./img/openbeermap.png"/>
+  </div>
+  [https://marketplace.firefox.com/app/openbeermap]
+  </section>
+
+  <section class="slide">
+  <h2>AppMaker Demo?</h2>
+  <a href="https://apps.webmaker.org/">https://apps.webmaker.org/</a>
+  </section>
+
+  <section class="slide" run-time-waypoint="780">
+  Get more people connected
+  <ul>
+  <li>to the open web</li>
+  <li>on their own terms</li>
+  <li>as participants</li>
+  </ul>
+  </section>
+
+  <section class="slide" run-time-waypoint="840">
+  <h1>Thank You</h1>
+  <div style="text-align: center">
+    <p>https://www.mozilla.org/</p>
+    <br/>
+    <p>rfkelly@mozilla.com</p>
+  </div>
+  </section>
+
+<script type="text/javascript">
+
+  // Preload all images to reduce display jank.
+  $(function() {
+    $.deck('.slide');
+    $('img').each(function(i, elem) {
+      var img = new Image();
+      img.src = $(elem).attr('src');
+    });
+  });
+
+  // Set up the runtime tracker and display.
+  $(function () {
+    var curSlide = null
+    var allSlides = $(".slide")
+    var talkStartTime = null
+
+    function onDeckChange(event, frm, to) {
+      curSlide = $.deck("getSlide", to)
+      updateRunTimer()
+    }
+
+    function updateRunTimer() {
+      // Clear previous status, if any.
+      var runTimer = $(".run-timer")
+      runTimer.removeClass("run-timer-slow-down")
+      runTimer.removeClass("run-timer-on-track")
+      runTimer.removeClass("run-timer-move-on")
+      runTimer.removeClass("run-timer-hurry-up")
+      // Find the nearest slide with a runtime waypoint.
+      if (curSlide === null || !curSlide.length) {
+        return
+      }
+      var curpos = 0
+      while (curpos < allSlides.length) {
+        if (allSlides[curpos] === curSlide[0]) {
+          break
+        }
+        curpos += 1
+      }
+      i = curpos - 1
+      var runTimeMin = curSlide.attr("run-time-waypoint")
+      while (runTimeMin === undefined && i >= 0) {
+        runTimeMin = allSlides.eq(i).attr("run-time-waypoint")
+        i -= 1
+      }
+      var runTimeMax = undefined
+      i = curpos + 1
+      while (runTimeMax === undefined && i < allSlides.length) {
+        runTimeMax = allSlides.eq(i).attr("run-time-waypoint")
+        i += 1
+      }
+      // Tweak status of runtime tracker accordingly.
+      if (curSlide[0] !== allSlides[0]) {
+        if (talkStartTime === null) {
+          talkStartTime = Date.now() / 1000;
+        }
+        runTime = (Date.now() / 1000) - talkStartTime;
+        runTimeMin = runTimeMin ? parseInt(runTimeMin, 10) : 0
+        runTimeMax = runTimeMax ? parseInt(runTimeMax, 10) : 0
+        if (runTimeMin && runTime < runTimeMin) {
+          runTimer.addClass("run-timer-slow-down")
+        } else if (runTimeMax && runTime >= runTimeMax) {
+          runTimer.addClass("run-timer-hurry-up")
+        } else if (runTimeMax && runTime >= runTimeMax - 30) {
+          runTimer.addClass("run-timer-move-on")
+        } else {
+          runTimer.addClass("run-timer-on-track")
+        }
+      }
+    }
+    $(document).bind("deck.change", onDeckChange)
+    setInterval(updateRunTimer, 5 * 1000)
+  })
+</script>
+
+</div>
+</body>
